@@ -8,7 +8,6 @@ RUN npm install
 
 COPY src src
 COPY public public
-COPY .eslintrc.json .
 COPY tsconfig.json .
 
 RUN npm run build
